@@ -9,7 +9,6 @@ public class Paddle : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		maxMoveSpeed = 0.05f;
-		print (MaxMoveSpeed);
 	}
 	
 	// Update is called once per frame
@@ -19,7 +18,6 @@ public class Paddle : MonoBehaviour {
 
 	float XLocation {
 		get {
-			print ("position = " + Camera.main.WorldToScreenPoint(transform.position).x);
 			return Camera.main.WorldToScreenPoint(transform.position).x;
 		}
 		set {
