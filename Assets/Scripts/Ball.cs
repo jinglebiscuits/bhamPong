@@ -7,7 +7,7 @@ public class Ball : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		velocity = Vector3.up * 4;
+		velocity = Vector3.up * 10;
 		rigidbody2D.velocity = velocity;
 	}
 	

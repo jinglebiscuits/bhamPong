@@ -8,7 +8,7 @@ public class Paddle : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		maxMoveSpeed = 0.05f;
+		maxMoveSpeed = 0.5f;
 	}
 	
 	// Update is called once per frame
